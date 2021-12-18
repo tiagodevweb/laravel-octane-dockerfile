@@ -3,8 +3,7 @@ set -e
 
 initialStuff() {
     php artisan event:cache; \
-    php artisan optimize:clear; \
-    php artisan package:discover --ansi;
+    php artisan optimize:clear;
 }
 
 if [ "$1" != "" ]; then

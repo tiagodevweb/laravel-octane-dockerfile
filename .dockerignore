@@ -3,7 +3,10 @@ package-lock.json
 package.json
 public/hot
 public/storage
+bootstrap/cache
 storage/*.key
+storage/framework
+storage/logs
 vendor
 .idea
 _ide_helper.php
